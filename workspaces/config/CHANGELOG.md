@@ -1,5 +1,9 @@
 # Changelog
 
+## [10.2.1](https://github.com/npm/cli/compare/config-v10.2.0...config-v10.2.1) (2025-04-23)
+### Bug Fixes
+* [`ed1a28e`](https://github.com/npm/cli/commit/ed1a28ed51d1cf1ed2421293c830201da4ce1fb6) [#8238](https://github.com/npm/cli/pull/8238) config: use exclusive for save types (@owlstronaut)
+
 ## [10.2.0](https://github.com/npm/cli/compare/config-v10.1.0...config-v10.2.0) (2025-04-08)
 ### Features
 * [`b306d25`](https://github.com/npm/cli/commit/b306d25df2f2e6ae75fd4f6657e0858b6dd71c43) [#8129](https://github.com/npm/cli/pull/8129) add `node-gyp` as actual config (@wraithgar)

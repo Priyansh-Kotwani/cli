@@ -1,5 +1,32 @@
 # Changelog
 
+## [11.4.0](https://github.com/npm/cli/compare/v11.3.0...v11.4.0) (2025-04-23)
+### Features
+* [`0d4c023`](https://github.com/npm/cli/commit/0d4c023914f835927540bd0110c1ca5716b84056) [#8234](https://github.com/npm/cli/pull/8234) install: add package info to json output (#8234) (@wraithgar)
+### Bug Fixes
+* [`fdc3413`](https://github.com/npm/cli/commit/fdc3413019c2f34f1fde35449e5f3a6b0fb51ba2) [#8221](https://github.com/npm/cli/pull/8221) exec: Fails to Execute Binaries Named After Shell Keywords (#8221) (@13sfaith)
+* [`4b08e2e`](https://github.com/npm/cli/commit/4b08e2ed252a18f85a360b76c7273a7aa7a994ca) [#8245](https://github.com/npm/cli/pull/8245) docs: prepare script runs for local package links (@milaninfy)
+* [`1622ac4`](https://github.com/npm/cli/commit/1622ac456f07403e6afe02352b8f95db14dcf9eb) [#8241](https://github.com/npm/cli/pull/8241) handle missing `time` in packument to prevent crash on `npm view` (@owlstronaut)
+* [`db8f5da`](https://github.com/npm/cli/commit/db8f5da886326ae40d44a8cceedb99e2e6a00855) [#8110](https://github.com/npm/cli/pull/8110) outdated: add dependent location in long output (#8110) (@milaninfy, @wraithgar)
+### Documentation
+* [`96cc4f9`](https://github.com/npm/cli/commit/96cc4f9a87a231abf4c9584a277765368ba6663d) [#8226](https://github.com/npm/cli/pull/8226) format publish as code to highlight it (@LiangYingC)
+* [`4990ea0`](https://github.com/npm/cli/commit/4990ea0f0c017e4702cf2da2fbd99dad61c77015) [#8226](https://github.com/npm/cli/pull/8226) clarify legacy token creation in npm login and adduser commands (@LiangYingC)
+### Dependencies
+* [`2521c9b`](https://github.com/npm/cli/commit/2521c9ba18172c2ade525cbe9a675d293a0484d9) [#8233](https://github.com/npm/cli/pull/8233) `@sigstore/protobuf-specs@0.4.1`
+* [`3274d68`](https://github.com/npm/cli/commit/3274d68b13595415586b41445838cc258543173a) [#8233](https://github.com/npm/cli/pull/8233) `@npmcli/query@4.0.1`
+* [`c263626`](https://github.com/npm/cli/commit/c2636268e83b8049789534e78f4c15913e047c89) [#8233](https://github.com/npm/cli/pull/8233) `abbrev@3.0.1`
+* [`78df711`](https://github.com/npm/cli/commit/78df711a60aaf8538b9fcaf13f2f9d50ce62b7b8) [#8233](https://github.com/npm/cli/pull/8233) `hosted-git-info@8.1.0`
+### Chores
+* [`3231ee9`](https://github.com/npm/cli/commit/3231ee9afefcadce2b17a143fd51d365de4d6dea) [#8244](https://github.com/npm/cli/pull/8244) update snapshots (@owlstronaut)
+* [`c561a33`](https://github.com/npm/cli/commit/c561a3307b18f9c208eb7305db0f2a51db61277d) [#8233](https://github.com/npm/cli/pull/8233) dev dependency updates (@owlstronaut)
+* [`7eca19c`](https://github.com/npm/cli/commit/7eca19cb5ddc32688a8e331d5468d58f14684bff) [#8215](https://github.com/npm/cli/pull/8215) update workflow permissions for updating Node PR (@owlstronaut)
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.0.3): `@npmcli/arborist@9.0.3`
+* [workspace](https://github.com/npm/cli/releases/tag/config-v10.2.1): `@npmcli/config@10.2.1`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v8.0.3): `libnpmdiff@8.0.3`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v10.1.2): `libnpmexec@10.1.2`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.3): `libnpmfund@7.0.3`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v9.0.3): `libnpmpack@9.0.3`
+
 ## [11.3.0](https://github.com/npm/cli/compare/v11.2.0...v11.3.0) (2025-04-08)
 ### Features
 * [`b306d25`](https://github.com/npm/cli/commit/b306d25df2f2e6ae75fd4f6657e0858b6dd71c43) [#8129](https://github.com/npm/cli/pull/8129) add `node-gyp` as actual config (@wraithgar)
